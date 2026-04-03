@@ -20,7 +20,7 @@ test_format = 1.0
     # -------------------------------
     [default.curl_tests]
     root.path = "/"
-    root.expect_title = "Synapse Admin"
+    root.expect_title = "Ketesa"
     root.expect_content = 'You need to enable JavaScript to run this app\.'
 
     config.path = "/config.json"

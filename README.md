@@ -4,13 +4,13 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/synapse-admin.png" width="32px" alt="Logo of Synapse Admin">
-  Synapse Admin, packaged for YunoHost
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/synapse-admin.png" width="32px" alt="Logo of Ketesa">
+  Ketesa, packaged for YunoHost
 </h1>
 
-Admin UI for Synapse
+Admin UI for Matrix homeservers, formerly Synapse Admin
 
-[![Version: 0.11.4.54~ynh1](https://img.shields.io/badge/Version-0.11.4.54~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/synapse-admin/)
+[![Version: 1.0.0~ynh1](https://img.shields.io/badge/Version-1.0.0~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/synapse-admin/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/synapse-admin"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -19,13 +19,14 @@ Admin UI for Synapse
 
 
 ## Screenshots
-![Screenshot of Synapse Admin](./doc/screenshots/screenshots.jpg)
+![Screenshot of Ketesa login](./doc/screenshots/login.webp)
+![Screenshot of Ketesa users list](./doc/screenshots/users-list.webp)
 
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/synapse-admin)](https://ci-apps.yunohost.org/ci/apps/synapse-admin/)
 
-🛠️ Upstream Synapse Admin repository: <https://github.com/etkecc/synapse-admin>
+🛠️ Upstream Ketesa repository: <https://github.com/etkecc/ketesa>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/synapse-admin_ynh/tree/testing).
 
