@@ -26,8 +26,18 @@ ynh_app_setting_set_default --key=allowed_matrix_servers --value=""
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-# Download, check integrity, uncompress and patch the source from manifest.toml
-ynh_setup_source --dest_dir="$install_dir" --keep=config.json
+cat > "$install_dir/index.html" << EOF
+<h1>Synapse-admin have been migrated to 'Ketesa'.</h1>
+<p>Please migrate your app to ketesa as described below:<br />
+<p>As this app don't contains any data on the server side no migration was made to migrate from "Synapse-admin" to "Ketesa".<br>
+So you just will need to remove Synapse-admin and install Ketesa.<br>
+So the process to migrate to Ketesa. is the following:</p>
+<ol>
+    <li>Remove Synapse-admin: <code>yunohost app remove synapse-admin</code></li>
+    <li>Install Ketesa: <code>yunohost app install ketesa</code></li>
+</ol>
+EOF
+chmod 744 "$install_dir/index.html"
 
 configure_app
 
