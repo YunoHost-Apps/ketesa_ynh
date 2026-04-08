@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "ketesa"
 name = "Ketesa"
-description.en = "Admin UI for Matrix homeservers, formerly Synapse Admin"
-description.fr = "Interface d'administration pour serveurs Matrix, anciennement Synapse Admin"
+description.en = "Admin UI for Matrix homeservers"
+description.fr = "Interface d'administration pour serveurs Matrix"
 
 version = "1.1.0~ynh1"
 
