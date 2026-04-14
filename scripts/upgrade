@@ -8,20 +8,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# ENSURE DOWNWARD COMPATIBILITY
-#=================================================
-ynh_script_progression "Ensuring downward compatibility..."
-
-if ynh_app_upgrading_from_version_before_or_equal_to 0.8.7~ynh1; then
-    ynh_die "Upgrade from version 0.8.3 is not possible. You must uninstall and reinstall Synapse-admin package manually"
-fi
-
-# If synapse_app doesn't exist, create it and assume it is `synapse`
-ynh_app_setting_set_default --key=synapse_app --value="synapse"
-
-ynh_app_setting_set_default --key=allowed_matrix_servers --value=""
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Upgrading source files..."
@@ -36,8 +22,6 @@ configure_app
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
 
-synapse_domain=$(ynh_app_setting_get --app="$synapse_app" --key=domain)
-ynh_safe_rm "/etc/nginx/conf.d/${synapse_domain}.d/$app.endpoint.conf"
 ynh_config_add_nginx
 
 #=================================================
