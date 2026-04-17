@@ -10,6 +10,7 @@ name.en = "Ketesa configuration"
 
         [main.config.allowed_matrix_servers]
         ask.en = "Choose a Matrix server to allow the access or leave it empty to allow any synapse servers."
+        ask.fr = "Sélectionnez un serveur Matrix pour autoriser l'accès, ou laissez ce champ vide pour autoriser tous les serveurs Synapse."
         type = "tags"
         example = "my-own-homeserver.tld"
         default = ""
