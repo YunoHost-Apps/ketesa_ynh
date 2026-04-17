@@ -1,7 +1,7 @@
 version = "1.0"
 
 [main]
-name.en = "Synapse admin configuration"
+name.en = "Ketesa configuration"
 
     [main.config]
     name.en = "Configuration Options"

@@ -4,38 +4,39 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/synapse-admin.png" width="32px" alt="Logo of Synapse Admin">
-  Synapse Admin, packaged for YunoHost
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/ketesa.png" width="32px" alt="Logo of Ketesa">
+  Ketesa, packaged for YunoHost
 </h1>
 
-Admin UI for Synapse
+Admin UI for Matrix homeservers
 
-[![Version: 0.11.1.53~ynh1](https://img.shields.io/badge/Version-0.11.1.53~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/synapse-admin/)
+[![Version: 1.1.0~ynh1](https://img.shields.io/badge/Version-1.1.0~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/ketesa/)
 
 <div align="center">
-<a href="https://apps.yunohost.org/app/synapse-admin"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
-<a href="https://github.com/YunoHost-Apps/synapse-admin_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
+<a href="https://apps.yunohost.org/app/ketesa"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
+<a href="https://github.com/YunoHost-Apps/ketesa_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
 
 ## Screenshots
-![Screenshot of Synapse Admin](./doc/screenshots/screenshots.jpg)
+![Screenshot of Ketesa](./doc/screenshots/login.webp)
+![Screenshot of Ketesa](./doc/screenshots/users-list.webp)
 
 ## 📦 Developer info
 
-[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/synapse-admin)](https://ci-apps.yunohost.org/ci/apps/synapse-admin/)
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/ketesa)](https://ci-apps.yunohost.org/ci/apps/ketesa/)
 
-🛠️ Upstream Synapse Admin repository: <https://github.com/etkecc/synapse-admin>
+🛠️ Upstream Ketesa repository: <https://github.com/etkecc/ketesa>
 
-Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/synapse-admin_ynh/tree/testing).
+Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/ketesa_ynh/tree/testing).
 
 The `testing` branch can be tested using:
 ```
 # fresh install:
-sudo yunohost app install https://github.com/YunoHost-Apps/synapse-admin_ynh/tree/testing
+sudo yunohost app install https://github.com/YunoHost-Apps/ketesa_ynh/tree/testing
 
 # upgrade an existing install:
-sudo yunohost app upgrade synapse-admin -u https://github.com/YunoHost-Apps/synapse-admin_ynh/tree/testing
+sudo yunohost app upgrade ketesa -u https://github.com/YunoHost-Apps/ketesa_ynh/tree/testing
 ```
 
 ### 📚 App packaging documentation
