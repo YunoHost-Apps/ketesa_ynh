@@ -1,0 +1,2 @@
+Pour vous connecter à Ketesa avec votre compte utilisateur, vous devez vous assurer que celui-ci dispose des droits d'administrateur sur votre serveur domestique Matrix (Synapse).
+Consultez la documentation de votre application Synapse pour savoir comment procéder.
