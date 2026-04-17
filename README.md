@@ -19,7 +19,6 @@ Admin UI for Matrix homeservers
 
 
 ## Screenshots
-![Screenshot of Ketesa](./doc/screenshots/login.webp)
 ![Screenshot of Ketesa](./doc/screenshots/users-list.webp)
 
 ## 📦 Developer info
