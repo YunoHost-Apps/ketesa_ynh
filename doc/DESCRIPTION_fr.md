@@ -1,0 +1,1 @@
+Ketesa est une interface d'administration pour les serveurs Matrix — la version améliorée de Synapse Admin. Gérez les utilisateurs, les salles, les fichiers multimédias, la fédération et l'état du serveur depuis une interface épurée et réactive.
